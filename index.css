@@ -1,0 +1,63 @@
+html {
+  background-color: #077ddf;
+  font-family: Helvetica;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #f2337b;
+  background-color: #f6d003;
+  margin-bottom: 10px;
+  border: 2px solid #f60e26;
+}
+
+span.mancala {
+  display: flex;
+  align-self: flex-end;
+  color: pink;
+  background-color: yellow;
+}
+
+span.tic-tac-toe {
+  display: flex;
+  align-self: flex-end;
+  color: pink;
+  background-color: yellow;
+}
+
+span.snake {
+  display: flex;
+  align-self: flex-end;
+  color: pink;
+  background-color: yellow;
+}
+
+span.connect-four {
+  display: flex;
+  align-self: flex-end;
+  color: pink;
+  background-color: yellow;
+}

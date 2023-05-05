@@ -1,0 +1,44 @@
+html {
+    background-color: #077ddf;
+    font-family: Helvetica;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f6d003;
+    color: #f2337b;
+    border: 6px solid #f60e26;
+    border-radius: 15px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+}
+
+.box {
+    border: 6px solid #f60e26;
+    font-weight: bold;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.above {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #f6d003;
+}
+
+select {
+    color: #f2337b;
+    background-color: #f6d003;
+    margin-bottom: 10px;
+    border: 2px solid #f60e26;
+}

@@ -1,0 +1,118 @@
+html {
+    background-color: #077ddf;
+    font-family: Helvetica;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: content;
+}
+
+header {
+    text-align: center;
+    font-weight: bolder;
+    color: #f6d003;
+    display: flex;
+    justify-content: center;
+}
+
+#score-board {
+    text-align: center;
+    font-weight: bolder;
+    color: #f6d003;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+#difficulty {
+    text-align: center;
+    font-weight: bolder;
+    color: #f6d003;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+#high-score {
+    text-align: center;
+    font-weight: bolder;
+    color: #f6d003;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+div#displays {
+    text-align: center;
+    font-weight: bolder;
+    color: #f6d003;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    font-weight: bolder;
+    color: #f6d003;
+    display: flex;
+    font-size: 20px;
+}
+
+#board {
+    display: grid;
+    width: 80vmin;
+    height: 80vmin;
+    background-color: #f6d003;
+    margin: 20px;
+    border: 5px solid #f60e26;
+    grid-template: repeat(25, 1fr) / repeat(25, 1fr);
+}
+
+.snake {
+    background-color: #077ddf;
+    border: 5px solid #f60e26;
+    border-radius: 5px;
+}
+
+.food {
+    background-color: #f2337b;
+    border: 5px solid #f2337b;
+    border-radius: 45%;
+}
+
+button {
+    margin: 0px 5px;
+    padding: 10px;
+    background-color: #f2337b;
+    border: 2px solid #f6d003;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #f2337b;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f2337b;
+}
+
+a:active {
+    text-decoration: none;
+    color: #f2337b;
+}
